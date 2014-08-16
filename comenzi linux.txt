@@ -1,0 +1,44 @@
+pwd - print working directory
+ls - list (-la => list all - optional)
+cd - change directory
+		~ <=> /home/username unde username este user-ul logat in sistem
+		. <=> folder curent
+		.. <=> folder parinte
+
+cat - afiseaza continutul unui fisier
+echo - afiseaza la ecran orice scrii dupa ea
+rm - remove
+
+redirectare input/output
+	input <
+	output >
+
+gcc <=> gnu c compiler
+g++ <=> compileaza c si c++
+
+assembly
+
+
+operatori pt pointeri
+* => dereferentiere (*operator => valoarea de la adresa respectiva)
+& => intoarce adresa de memorie a operandului (&operand =>  adresa)
+
+declaratie pointeri
+
+tip_date * nume_var;
+
+sizeof(tip_date) =>  dimensiunea in bytes a tipului de date
+
+[] = operator de indexare
+v[i] => *(v + i)
+
+tip_date_returnat nume_functie(tip_date1 param1, tip_date2 param2, ...)
+{
+	//cod aici
+	return *ceva de tipul tip_date_returnat*;
+}
+
+tip_date_returnat (*p)(tip_date1, tip_date2, ...) => p este pointer la functie care intoarce tip_date_returnat
+si primeste parametrii cu tip_date1, tip_date2, ...
+p = numel_functiei;
+p(argumente...);
